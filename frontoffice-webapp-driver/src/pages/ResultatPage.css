@@ -1,0 +1,15 @@
+.result-container {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  .result-banner{
+  width: 30%;
+}
+@media screen and (max-width: 700px) {
+  .result-banner{
+    display: none;
+  }
+
+}

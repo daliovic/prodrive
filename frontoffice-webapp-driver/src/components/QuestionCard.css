@@ -1,0 +1,14 @@
+.question-title {
+  text-align: center;
+}
+
+.question__announcement {
+  font-weight: bold;
+}
+
+.right-answer-label {
+  color: #16f316;
+}
+.false-answer-label {
+  color: #f31616;
+}

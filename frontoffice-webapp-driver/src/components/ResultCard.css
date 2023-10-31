@@ -1,0 +1,45 @@
+.result__card {
+  max-width: 524px;
+  width: 50%;
+  /* margin-top: 70px; */
+}
+.result__card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.result__card-fail__message {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.result__card-button {
+  justify-self: auto;
+  width: 60%;
+  background-color: var(--primary-color) !important;
+}
+.result__card-message {
+  color: var(--primary-color);
+  text-align: center;
+}
+.result__card-comment {
+  color: var(--secondary-color);
+  text-align: center;
+}
+.result-progressbar {
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .result__card {
+    max-width: 524px;
+    width: 80%;
+    /* margin-top: 70px; */
+  }
+
+}

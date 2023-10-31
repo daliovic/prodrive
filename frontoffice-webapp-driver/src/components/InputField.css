@@ -1,0 +1,39 @@
+.input-container {
+  position: relative;
+  height: 33px;
+  width: 80%;
+  margin-top: auto;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: var(--secondary-color);
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+}
+.input-container input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.input-container input:enabled:focus {
+  border: none;
+  outline: none;
+  background-color: none;
+  border-color: var(--secondary-light-color);
+  box-shadow: 0 0 0 0.2rem var(--primary-light-color);
+  border-radius: 3px;
+}
+
+.input-container i {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  margin-top: -0.5rem;
+  padding-right: 6px;
+}

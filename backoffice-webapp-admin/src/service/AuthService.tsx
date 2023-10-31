@@ -1,0 +1,24 @@
+import _axios from "axios";
+
+import config from "../configs/config.json";
+import { User } from "../interfaces/users.interface";
+import {getSavedState} from "../utils/LocalStorage.utils";
+import LSVariables from "../configs/LS_variables.json";
+import {Admin} from "../interfaces/admins.interface";
+
+const axios = _axios.create({
+  withCredentials: true,
+  baseURL: config.SERVER_URL,
+});
+export class AuthService {
+  getUser (): Admin {
+    return getSavedState(LSVariables.saved_user);
+  }
+
+  logIn(user: User) {
+    return axios.post(`/loginAdmin`, user);
+  }
+  logOut() {
+    return axios.post(`/logout`);
+  }
+}

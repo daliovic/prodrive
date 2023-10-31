@@ -1,0 +1,1 @@
+npm i --prefix rest-api/  && npm i --prefix prodriveApp/ && npm i --prefix frontoffice-webapp-driver/ && npm i --prefix backoffice-webapp-transporter/ && npm i --prefix backoffice-webapp-admin/

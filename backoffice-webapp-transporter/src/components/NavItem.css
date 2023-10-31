@@ -1,0 +1,27 @@
+.sidebar-navitem {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.active-item {
+  padding: 6px 15px 6px 15px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.inactive-item {
+  padding: 8px 20px 8px 20px;
+  color: white
+}
+.inactive-link{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.active-link{
+  text-decoration: none;
+  color: white;
+}

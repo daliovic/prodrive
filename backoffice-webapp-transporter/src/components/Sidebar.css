@@ -1,0 +1,32 @@
+/* .layout-wrapper.layout-slim .layout-menu-container {
+    width: 57px;
+    overflow: visible;
+  }
+
+
+.layout-wrapper.layout-menu-light .layout-menu-container {
+    background-color: #ffffff;
+    border: 1px solid #ebebef;
+    border-left: 0;
+    border-top: 0;
+}
+.layout-wrapper .layout-menu-container {
+    position: fixed;
+    height: calc(100% - 70px);
+    top: 70px;
+    overflow: auto;
+    z-index: 999;
+} */
+
+.sidebar-container {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+  background-color: rgb(255, 255, 255);
+  width: 57px;
+  position: fixed;
+  height: calc(100vh - 70px);
+  top: 70px;
+  z-index: 999;
+}
+.sidebar-container ul {
+  padding-top: 50px;
+}

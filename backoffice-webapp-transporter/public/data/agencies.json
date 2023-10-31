@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "agency": "agence1",
+            "email": "agen1@gmail.com",
+            "address": "Agency Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        },
+        {
+            "id": "2",
+            "agency": "agence2",
+            "email": "agen2@gmail.com",
+            "address": "Agency2 Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53097674",
+            "subscription": "6 Jours"
+        },
+        {
+            "id": "3",
+            "agency": "agence1",
+            "email": "agen@gmail.com",
+            "address": "Product Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        },
+        {
+            "id": "4",
+            "agency": "agence1",
+            "email": "agen@gmail.com",
+            "address": "Product Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        },
+        {
+            "id": "5",
+            "agency": "agence1",
+            "email": "agen@gmail.com",
+            "address": "Product Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        },
+        {
+            "id": "6",
+            "agency": "agence1",
+            "email": "agen@gmail.com",
+            "address": "Product Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        },
+        {
+            "id": "7",
+            "agency": "agence1",
+            "email": "agen@gmail.com",
+            "address": "Product Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        },
+        {
+            "id": "8",
+            "agency": "agence1",
+            "email": "agen@gmail.com",
+            "address": "Product Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        },
+        {
+            "id": "9",
+            "agency": "agence1",
+            "email": "agen@gmail.com",
+            "address": "Product Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        },
+        {
+            "id": "10",
+            "agency": "agence1",
+            "email": "agen@gmail.com",
+            "address": "Product Description",
+            "password": "sdfkj0dfk,",
+            "phone": "53021874",
+            "subscription": "4 Jours"
+        }
+    ]
+}

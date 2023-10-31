@@ -1,0 +1,80 @@
+.login-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.login-background__img {
+  z-index: 1;
+  position: fixed;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  bottom: 20;
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 700px) {
+  .login-banner {
+    background: radial-gradient(
+      63.41% 84.48% at 54.86% 6.64%,
+      var(--secondary-color) 3%,
+      var(--primary-color) 98%
+    );
+    height: 100%;
+    width: 42%;
+    border-radius: 0px 74px 74px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .login-banner img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: 100%;
+    display: block;
+    z-index: 2;
+  }
+}
+@media screen and (max-width: 699px) {
+  .login-banner img {
+
+    display: none;
+
+  }
+}
+.login-logo {
+  max-width: 80%;
+
+  margin-bottom: 6%;
+}
+
+.login-form__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 5;
+}
+.form {
+  width: 40vw;
+  min-width: 370px;
+}
+
+.login-connection__button {
+  background-color: var(--primary-color) !important;
+  width: 40% !important;
+  border: 1px solid var(--primary-light-color) !important;
+}
+
+.login-connection__button:enabled:focus {
+  box-shadow: 0 0 0 0.2rem var(--primary-light-color) !important;
+}
+
+
+
+
+
+

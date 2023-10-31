@@ -1,0 +1,25 @@
+{
+  "name": "prodrive-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "admin": "npm start --prefix backoffice-webapp-admin",
+    "transporter": "npm  start --prefix backoffice-webapp-transporter",
+    "driver-web": "npm start --prefix frontoffice-webapp-driver",
+    "driver-serve": "npm run web --prefix prodriveApp",
+    "driver-device": "npm run device --prefix prodriveApp",
+    "api": "npm run dev --prefix rest-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrabelsiHoussem/prodrive-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrabelsiHoussem/prodrive-release/issues"
+  },
+  "homepage": "https://github.com/TrabelsiHoussem/prodrive-release#readme"
+}

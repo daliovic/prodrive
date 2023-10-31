@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 100vh;
+    
+
+} */
+:root {
+    --primary-color: #213F9A !important;
+    --secondary-color: #4A97D2 !important;
+    --primary-light-color: #3466FF !important;
+    --secondary-light-color:#138AE4;
+  }
